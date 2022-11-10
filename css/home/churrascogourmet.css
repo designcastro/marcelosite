@@ -38,3 +38,26 @@
   width: 24px;
   margin-bottom: 8px;
 }
+@media (max-width: 800px) {
+  .churrasco-bg {
+    box-shadow: initial;
+  }
+  .churrasco {
+    grid-template-columns: 1fr;
+  }
+  .churrasco-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .churrasco-imagem {
+    display: none;
+  }
+  .churrasco a {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .churrasco-vantagens {
+    flex-direction: column;
+  }
+}
