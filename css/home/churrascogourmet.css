@@ -1,0 +1,40 @@
+.churrasco-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+.churrasco {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.churrasco-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+.churrasco-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.churrasco-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+.churrasco-conteudo h2 {
+  margin-bottom: 20px;
+}
+.churrasco-conteudo > p {
+  margin-bottom: 20px;
+}
+.churrasco a {
+  margin-bottom: 80px;
+}
+.churrasco-vantagens {
+  display: flex;
+  gap: 40px;
+}
+.churrasco-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
